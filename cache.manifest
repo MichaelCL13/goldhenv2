@@ -2,7 +2,9 @@ CACHE MANIFEST
 # v1.0
 
 blob.js
-goldhen.html
+dumper.js
+dumper.png
+payload.html
 goldhen755.js
 img.jpg
 1.1.png
