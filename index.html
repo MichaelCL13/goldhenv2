@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest"><head>
-<title>PS4 7.55 GoldHEN v1.0 host MichaelCL13</title>
+<title>PS4 7.55 GoldHEN v1.1 host MichaelCL13</title>
 <style>
 html, body {
 background-image: url('img.jpg');
@@ -69,7 +69,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Ins
 document.cookie = 'kex=1';
 </script>
 </head>
-<h1 id=msgs>PS4 7.55 GoldHEN v1.0 host MichaelCL13</h1>
+<h1 id=msgs>PS4 7.55 GoldHEN v1.1 host MichaelCL13</h1>
 <hr>
 <br>
 <h1 style="font-size:28px;text-align:center;text-shadow: 0.1em 0.1em 0.2em black;color:white">Experimentará problemas de memoria insuficientes en el navegador (debe insistir)</h1>
@@ -80,13 +80,19 @@ document.cookie = 'kex=1';
 <div style="text-align:center">
 <br>
 <br>
-<br>
-<button class="btn" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> <img src="1.1.png"></a></td>
+<button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_hen213b()> <img src="hen213b.png"></a></td>
 <br>
 <br>
 <button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_dumper()> <img src="dumper.png"></a></td>
 <br>
 <br>
+<button class="btn" onmouseover="mainpayload1()" onmouseout="pagetitle()" onclick=load_goldhen()> <img src="1.1.png"></a></td>
+<br>
+<br>
+<button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_linux1gb()> <img src="linux1gb.png"></a></td>
+<br>
+<br>
+<button class="btn2" onmouseover="mainpayload2()" onmouseout="pagetitle()" onclick=load_linux3gb()> <img src="linux3gb.png"></a></td>
 <br>
 <br>
 <br>
@@ -94,7 +100,7 @@ document.cookie = 'kex=1';
 </div>
 <script>
 function pagetitle(){
-document.getElementById("msgs").innerHTML = "PS4 7.55 GoldHEN v1.0 host MichaelCL13";
+document.getElementById("msgs").innerHTML = "PS4 7.55 GoldHEN v1.1 host MichaelCL13";
 }
 
 function load_goldhen(){
@@ -109,6 +115,27 @@ function load_dumper(){
   var link = document.createElement('a');
         document.body.appendChild(link);
         link.href = 'payload.html#f=dumper.js';
+        link.click();
+}
+function load_hen213b(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=hen213b.js';
+        link.click();
+}
+function load_linux1gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux1gb.js';
+        link.click();
+}
+function load_linux3gb(){
+
+  var link = document.createElement('a');
+        document.body.appendChild(link);
+        link.href = 'payload.html#f=linux3gb.js';
         link.click();
 }
 
